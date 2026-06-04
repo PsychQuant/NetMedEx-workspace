@@ -4,6 +4,10 @@
 # Private working notes — kept local, intentionally NOT published
 docs/
 
+# Sub-repos: public ones are tracked as submodules (see .gitmodules).
+# Anything else under repos/ stays local and is not published from this repo.
+repos/*
+
 # OS / editor cruft
 .DS_Store
 *.swp
